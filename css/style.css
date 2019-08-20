@@ -78,6 +78,40 @@ nav div button .svg-buttons{
     
 }
 
+nav .account .arrow {
+    margin: auto 0 2px 6px;
+    height: 5px;
+    width: 9px;
+
+    
+}
+
+ .float-right{
+   float: right;
+
+}
+nav .subscribe{
+    background: #6288a5;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 700;
+ }
+
+ nav .account{
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 500;
+ }
+
+nav .subscribe span {
+    background: #6288a5;
+    color: #ffffff;
+}
 
 header .below-float{
 
