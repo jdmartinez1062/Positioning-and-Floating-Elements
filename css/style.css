@@ -18,6 +18,7 @@ time, mark, audio, video, button {
 	padding: 0;
     vertical-align: baseline;
     box-sizing: border-box;
+    background: #ffffff;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -45,12 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav .nav-div{
+    width:33%;
+    display: inline-block;
+    
+
+}
+a svg{
+    width: 185px;
+    height: 25px;
+}
+
+nav div button{
+
+    height: 33px;
+    width: 34px;
+    
+       
+}
+
+nav div button .svg-buttons{
+    
+    margin: auto;
+    height:16px;
+    width: 16px;
+    
+}
 
 
+header .below-float{
 
-nav .svg-buttons{
-
-    height: 34px;
-    width:33px;
+    clear: both;
 
 }
