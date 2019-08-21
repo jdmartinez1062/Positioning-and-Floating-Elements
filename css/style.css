@@ -49,14 +49,22 @@ table {
 nav{
     position: fixed;
     width: 100%;
+    height:42px;
+    padding:0 139px 0 141px;
 }
 
-nav .nav-div{
-    width:33%;
+nav .nav-div-big{
+    width:44%;
     display: inline-block;
     
 
 }
+nav .nav-div-small{
+    width:27.5%;
+    display: inline-block;
+    
+}
+
 a svg{
     width: 185px;
     height: 25px;
