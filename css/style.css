@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+
 	background-color: #edeef2;
 	height:100vh;
 	line-height: 1;	
@@ -53,17 +54,19 @@ table {
 nav{
     position: fixed;
     width: 100%;
-    height:42px;
+    height:43px;
     padding:0 139px 0 141px;
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
+    font-family: nyt-franklin, Helvetica, sans-serif;
+    border-bottom: 1px solid #e2e2e2;
+
 }
 
 nav .nav-div-big{
     width:44%;
     display: inline-block;
-    font-family: nyt-franklin, Helvetica, sans-serif;
     font-size: 14.25px;
     font-weight: 700;    
     display: flex;
@@ -127,20 +130,20 @@ nav .account .arrow {
 }
 nav .subscribe{
     background: #6288a5;
-    width: 150px;
-    height: 25px;
+    width: 119px;
+    height: 32px;
     border-radius: 3px;
     font-size: 11px;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+ 
     font-weight: 700;
  }
 
  nav .account{
-    width: 100px;
-    height: 25px;
+    width: 76px;
+    height: 33px;
     font-size: 12px;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
     font-weight: 500;
+    margin-right: 60px;
  }
 
 nav .subscribe span {
@@ -148,8 +151,28 @@ nav .subscribe span {
     color: #ffffff;
 }
 
-header .below-float{
+article {
+    
 
-    clear: both;
+    position: relative;
+    top: 43px;
 
+}
+
+article div .small-float {
+    float: left;
+    width: 18%;
+}
+
+article div .big {
+    width: 64%;
+    float: left;
+}
+
+article div ::before {
+    width: 100vh;
+
+}
+article div ::after {
+    width: 100vh;
 }
