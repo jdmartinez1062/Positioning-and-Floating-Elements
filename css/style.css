@@ -3,6 +3,7 @@
 @font-face { font-family: nyt-franklin; font-weight: 700; src: url('franklin/franklin-normal-700.ttf'); }
 @font-face { font-family: nyt-cheltenham;font-style:italic;font-weight: 700; src: url('cheltenham/cheltenham-italic-700.ttf'); }
 @font-face { font-family: nyt-imperial;font-style:italic;font-weight: 500; src: url('imperial/imperial-normal-500.ttf'); }
+@font-face { font-family: nyt-imperial;font-style:italic;font-weight: 700; src: url('imperial/imperial-normal-700.ttf'); }
 
 html,
 body,
@@ -273,6 +274,18 @@ h1{
   
   
 }
+h2{
+  
+  word-spacing: -2px;
+  font-family: nyt-imperial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left:25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+    
+}
 .main-text{
   display: inline-block;
   width:600px;
@@ -281,6 +294,7 @@ h1{
   font-weight: 100;
   line-height: 30px;
   margin-left: 25%;
+  clear:both;
   
 }
 .below-img-p{
@@ -313,6 +327,7 @@ h1{
   text-decoration-color: rgb(204, 204 ,204);
   font-family: inherit;
   color:inherit;
+  
 }
 .article-date{
   display: inline-block;
@@ -322,14 +337,142 @@ h1{
   color: #333333;
   width:89.56px;
   word-spacing: -2px;
+  height:27px;
+  padding-top: 6px;
   
 }
 
 .social-media-logos {
     margin-left: 25%;
-    width:600px;
+    width: 600px;
+    height: 27px;
+    clear:none;
+    margin-bottom: 20px;
+}
+.logo-wapper{
+    width:300px;
+    height: 27px;
+    float:right;
+}
+.social-media-logos:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 .logos {
     float: right;
     margin:auto;
+    display: flex;
+        
+}
+.svg-icon-size{
+  width: 27px;
+  height: 27px;
+  padding: 6px;
+  display: flex;
+  align-self: center;
+  background-color: #eeeeee;
+  border-radius: 27px;
+  margin: 0 8px;
+  
+}
+.svg-icon-size-button-1{
+  width: 37px;
+  height: 30px;
+  margin: 0 8px;
+}
+.svg-icon-size-button-2{
+  width: 16px;
+  height: 25px;
+  margin: 0 8px;
+}
+.inflation-img-div{
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  
+}
+.inflation-img-div div{
+  width: min-content;
+  position: relative;
+  
+}
+.inflation-img{
+  width: 945px;
+  height: 576px;
+  
+}
+.p1{
+  position: absolute;
+  top:24.8264%;
+  left:0.0436%;
+  
+}
+
+.p2{
+  position: absolute;
+
+ 
+  top:24.8264%;left:25.5619%;
+}
+
+.p3{
+  position: absolute;
+
+  
+  top:24.8264%;left:51.0800%;
+}
+
+.p4{
+  position: absolute;
+
+  
+  top:24.8264%;left:76.5982%;
+}
+
+.p5{
+  position: absolute;
+
+  
+  top:73.4375%;left:0.0436%;
+}
+
+.p6{
+  position: absolute;
+
+  
+  top:73.4375%;left:25.5619%;
+}
+
+.p7{
+  position: absolute;
+  
+  top:73.4375%;left:51.0800%;
+}
+.p8{
+  position: absolute;
+
+  
+  top:73.4375%;left:76.5982%;
+  
+}
+.par{
+  width:228px;
+    
+    line-height: 17px;
+    font-family:nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 14px;
+}
+.par span {
+    font-weight: 700;
+    font-family:nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.55px;
+    line-height: 17px;
+    color: #000000;
+    margin-right: 5px;
 }
