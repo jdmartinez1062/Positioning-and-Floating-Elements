@@ -1,9 +1,14 @@
 @font-face { font-family: nyt-franklin; src: url('franklin/franklin-normal-300.ttf'); }
+
 @font-face { font-family: nyt-franklin; font-weight: 500; src: url('franklin/franklin-normal-500.ttf'); }
+
 @font-face { font-family: nyt-franklin; font-weight: 700; src: url('franklin/franklin-normal-700.ttf'); }
-@font-face { font-family: nyt-cheltenham;font-style:italic;font-weight: 700; src: url('cheltenham/cheltenham-italic-700.ttf'); }
-@font-face { font-family: nyt-imperial;font-style:italic;font-weight: 500; src: url('imperial/imperial-normal-500.ttf'); }
-@font-face { font-family: nyt-imperial;font-style:italic;font-weight: 700; src: url('imperial/imperial-normal-700.ttf'); }
+
+@font-face { font-family: nyt-cheltenham; font-style: italic; font-weight: 700; src: url('cheltenham/cheltenham-italic-700.ttf'); }
+
+@font-face { font-family: nyt-imperial; font-style: italic; font-weight: 500; src: url('imperial/imperial-normal-500.ttf'); }
+
+@font-face { font-family: nyt-imperial; font-style: italic; font-weight: 700; src: url('imperial/imperial-normal-700.ttf'); }
 
 html,
 body,
@@ -110,10 +115,12 @@ nav,
 section {
   display: block;
 }
+
 * {
-    box-sizing: border-box;
-    background: white;
+  box-sizing: border-box;
+  background: white;
 }
+
 body {
   background-color: white;
   height: 100vh;
@@ -255,13 +262,14 @@ article div ::before {
 article div ::after {
   width: 100vh;
 }
-.main-img{
-  width:1200px;
+
+.main-img {
+  width: 1200px;
   height: 675px;
 }
-h1{
-  
-  margin-left:25%;
+
+h1 {
+  margin-left: 25%;
   margin-top: 40px;
   word-spacing: -2px;
   font-family: nyt-cheltenham, Helvetica, sans-serif;
@@ -271,208 +279,204 @@ h1{
   line-height: 48px;
   display: inline-block;
   max-width: 383.77px;
-  
-  
 }
-h2{
-  
+
+h2 {
   word-spacing: -2px;
   font-family: nyt-imperial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  margin-left:25%;
+  margin-left: 25%;
   margin-top: 20px;
   margin-bottom: 20px;
-    
 }
-.main-text{
+
+.main-text {
   display: inline-block;
-  width:600px;
-  font-family:nyt-imperial,georgia,'times new roman',times,serif;
-  font-size:20px;
+  width: 600px;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 20px;
   font-weight: 100;
   line-height: 30px;
   margin-left: 25%;
-  clear:both;
-  
+  clear: both;
 }
-.below-img-p{
-  font-family:nyt-imperial,georgia,'times new roman',times,serif;
+
+.below-img-p {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 15px;
   display: inline-block;
-  width:849.84px;
-  color: #666666;
+  width: 849.84px;
+  color: #666;
   line-height: 18px;
   margin-top: 8px;
   margin-bottom: 45px;
 }
-.below-img-p span{
-  color: #888888;
-  font-size: 13px;
-  
 
+.below-img-p span {
+  color: #888;
+  font-size: 13px;
 }
-.made-by{
+
+.made-by {
   margin-bottom: 30px;
   margin-left: 25%;
-  width:600px;
-  font-family:nyt-franklin,georgia,'times new roman',times,serif;
+  width: 600px;
+  font-family: nyt-franklin, georgia, 'times new roman', times, serif;
   font-size: 15px;
   font-weight: 700;
-  color: #333333;
+  color: #333;
 }
-.made-by a{
+
+.made-by a {
   text-decoration-line: underline;
-  text-decoration-color: rgb(204, 204 ,204);
+  text-decoration-color: rgb(204, 204, 204);
   font-family: inherit;
-  color:inherit;
-  
+  color: inherit;
 }
-.article-date{
+
+.article-date {
   display: inline-block;
-  font-family:nyt-franklin,georgia,'times new roman',times,serif;
+  font-family: nyt-franklin, georgia, 'times new roman', times, serif;
   font-size: 13px;
   font-weight: 500;
-  color: #333333;
-  width:89.56px;
+  color: #333;
+  width: 89.56px;
   word-spacing: -2px;
-  height:27px;
+  height: 27px;
   padding-top: 6px;
-  
 }
 
 .social-media-logos {
-    margin-left: 25%;
-    width: 600px;
-    height: 27px;
-    clear:none;
-    margin-bottom: 20px;
+  margin-left: 25%;
+  width: 600px;
+  height: 27px;
+  clear: none;
+  margin-bottom: 20px;
 }
-.logo-wapper{
-    width:300px;
-    height: 27px;
-    float:right;
+
+.logo-wapper {
+  width: 300px;
+  height: 27px;
+  float: right;
 }
-.social-media-logos:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
+
+.social-media-logos::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
+
 .logos {
-    float: right;
-    margin:auto;
-    display: flex;
-        
+  float: right;
+  margin: auto;
+  display: flex;
 }
-.svg-icon-size{
+
+.svg-icon-size {
   width: 27px;
   height: 27px;
   padding: 6px;
   display: flex;
   align-self: center;
-  background-color: #eeeeee;
+  background-color: #eee;
   border-radius: 27px;
   margin: 0 8px;
-  
 }
-.svg-icon-size-button-1{
+
+.svg-icon-size-button-1 {
   width: 37px;
   height: 30px;
   margin: 0 8px;
 }
-.svg-icon-size-button-2{
+
+.svg-icon-size-button-2 {
   width: 16px;
   height: 25px;
   margin: 0 8px;
 }
-.inflation-img-div{
+
+.inflation-img-div {
   display: flex;
-  
   flex-direction: column;
   align-items: center;
-  width:100%;
-  
+  width: 100%;
 }
-.inflation-img-div div{
+
+.inflation-img-div div {
   width: min-content;
   position: relative;
-  
 }
-.inflation-img{
+
+.inflation-img {
   width: 945px;
   height: 576px;
-  
 }
-.p1{
+
+.p1 {
   position: absolute;
-  top:24.8264%;
-  left:0.0436%;
-  
+  top: 24.8264%;
+  left: 0.0436%;
 }
 
-.p2{
+.p2 {
   position: absolute;
-
- 
-  top:24.8264%;left:25.5619%;
+  top: 24.8264%;
+  left: 25.5619%;
 }
 
-.p3{
+.p3 {
   position: absolute;
-
-  
-  top:24.8264%;left:51.0800%;
+  top: 24.8264%;
+  left: 51.08%;
 }
 
-.p4{
+.p4 {
   position: absolute;
-
-  
-  top:24.8264%;left:76.5982%;
+  top: 24.8264%;
+  left: 76.5982%;
 }
 
-.p5{
+.p5 {
   position: absolute;
-
-  
-  top:73.4375%;left:0.0436%;
+  top: 73.4375%;
+  left: 0.0436%;
 }
 
-.p6{
+.p6 {
   position: absolute;
-
-  
-  top:73.4375%;left:25.5619%;
+  top: 73.4375%;
+  left: 25.5619%;
 }
 
-.p7{
+.p7 {
   position: absolute;
-  
-  top:73.4375%;left:51.0800%;
+  top: 73.4375%;
+  left: 51.08%;
 }
-.p8{
-  position: absolute;
 
-  
-  top:73.4375%;left:76.5982%;
-  
+.p8 {
+  position: absolute;
+  top: 73.4375%;
+  left: 76.5982%;
 }
-.par{
-  width:228px;
-    
-    line-height: 17px;
-    font-family:nyt-franklin,arial,helvetica,sans-serif;
-    font-size: 14px;
+
+.par {
+  width: 228px;
+  line-height: 17px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
 }
+
 .par span {
-    font-weight: 700;
-    font-family:nyt-franklin,arial,helvetica,sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.55px;
-    line-height: 17px;
-    color: #000000;
-    margin-right: 5px;
+  font-weight: 700;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.55px;
+  line-height: 17px;
+  color: #000;
+  margin-right: 5px;
 }
