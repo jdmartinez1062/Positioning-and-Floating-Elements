@@ -302,6 +302,10 @@ h2 {
   margin-left: 25%;
   clear: both;
 }
+.main-text a {
+  color: #326891;
+  text-decoration-line: underline;
+}
 
 .below-img-p {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
@@ -531,18 +535,55 @@ iframe {
     display: block;
     font-size: 15px;
     color: #666666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    line-height: 20px;
+    
 }
 .credit {
     font-size: 13px;
     color: #888888;
     margin-top: 4px;
     margin-bottom: 40px;
-    display: block;
+    display: inline-block;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    line-height: 20px;
 
 }
 
 .telescope-img {
     width: 720px;
-    margin-top: 40px;
-    margin-left: 20%;
+  margin: 40px 0 0 20%;
+}
+.telescope-span {
+   width: 720px;
+   margin-left: 20%;
+   line-height: 20px;
+}
+.telescope-span span{
+  margin-left: 5px;
+}
+.footer-button-comments{
+  width: 330px;
+  height: 36px;
+  text-align: center;
+  background-color: #6288a5;
+}
+.footer-button-comments+div{
+  
+  margin: auto 0;
+
+}
+.article-footer{
+  
+}
+.footer-button-comments span{
+  
+
+   color:white;
+   background-color: #6288a5;
+   font-family: nyt-franklin, Helvetica, sans-serif;
+   font-size: 13px;
+   font-weight: 700;
+   letter-spacing: 0.65px;
+
 }
