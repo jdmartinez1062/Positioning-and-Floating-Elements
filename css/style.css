@@ -399,18 +399,24 @@ h2 {
   margin: 0 8px;
 }
 .inflation-title {
+  
   font-size: 20px;
   margin-left: 10.625%;
   word-spacing: -2px;
   font-family: nyt-cheltenham, Helvetica, sans-serif;
   font-style: italic;
   font-weight: 700;
-
   line-height: 48px;
-  display: inline-block;
+  
+  display: block;
   max-width: 383.77px;
+  margin-bottom: 0;
 }
-
+.below-img-p {
+  margin-top: 0;
+  margin-left: 10.625%;
+  margin-bottom: 10px;
+}
 .inflation-img-div {
   display: flex;
   flex-direction: column;
@@ -491,4 +497,52 @@ h2 {
   line-height: 17px;
   color: #000;
   margin-right: 5px;
+}
+.story-footer {
+    display: block;
+    width: 45px;
+    height: 1px;
+    background: black;
+    margin-top: 24px;
+    margin-left: 10.625%;
+    margin-bottom: 10px;
+}
+
+.story-footer-text {
+  margin-top: 10px;
+  margin-left: 10.625%;
+  margin-bottom: 50px;
+  display: inline-block;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+iframe {
+    margin-top: 40px;
+    margin-left: 25%;
+}
+
+.stanford-video {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+.video-title{
+    display: block;
+    font-size: 15px;
+    color: #666666;
+}
+.credit {
+    font-size: 13px;
+    color: #888888;
+    margin-top: 4px;
+    margin-bottom: 40px;
+    display: block;
+
+}
+
+.telescope-img {
+    width: 720px;
+    margin-top: 40px;
+    margin-left: 20%;
 }
