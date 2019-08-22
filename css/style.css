@@ -92,8 +92,6 @@ button {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
-  box-sizing: border-box;
-  background: #fff;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -111,9 +109,12 @@ nav,
 section {
   display: block;
 }
-
+* {
+    box-sizing: border-box;
+    background: white;
+}
 body {
-  background-color: #edeef2;
+  background-color: white;
   height: 100vh;
   line-height: 1;
 }
@@ -151,6 +152,7 @@ nav {
   align-items: center;
   font-family: nyt-franklin, Helvetica, sans-serif;
   border-bottom: 1px solid #e2e2e2;
+  z-index: 1;
 }
 
 nav .nav-div-big {
@@ -298,6 +300,7 @@ h1{
 
 }
 .made-by{
+  margin-bottom: 30px;
   margin-left: 25%;
   width:600px;
   font-family:nyt-franklin,georgia,'times new roman',times,serif;
@@ -312,11 +315,21 @@ h1{
   color:inherit;
 }
 .article-date{
+  display: inline-block;
   font-family:nyt-franklin,georgia,'times new roman',times,serif;
   font-size: 13px;
   font-weight: 500;
   color: #333333;
-  margin-left: 25%;
-  width:600px;
+  width:89.56px;
+  word-spacing: -2px;
   
+}
+
+.social-media-logos {
+    margin-left: 25%;
+    width:600px;
+}
+.logos {
+    float: right;
+    margin:auto;
 }
