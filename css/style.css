@@ -3,7 +3,7 @@
 @font-face { font-family: nyt-franklin; font-weight: 500; src: url('franklin/franklin-normal-500.ttf'); }
 
 @font-face { font-family: nyt-franklin; font-weight: 700; src: url('franklin/franklin-normal-700.ttf'); }
-
+@font-face { font-family: nyt-cheltenham; font-style: normal; font-weight: 400; src: url('cheltenham/cheltenham-normal-400.ttf'); }
 @font-face { font-family: nyt-cheltenham; font-style: italic; font-weight: 700; src: url('cheltenham/cheltenham-italic-700.ttf'); }
 
 @font-face { font-family: nyt-imperial; font-style: italic; font-weight: 500; src: url('imperial/imperial-normal-500.ttf'); }
@@ -551,7 +551,7 @@ iframe {
 }
 
 .telescope-img {
-    width: 720px;
+  width: 720px;
   margin: 40px 0 0 20%;
 }
 .telescope-span {
@@ -567,6 +567,8 @@ iframe {
   height: 36px;
   text-align: center;
   background-color: #6288a5;
+  border-radius: 5px;
+  border: 1px solid #326891;
 }
 .footer-button-comments+div{
   
@@ -574,16 +576,79 @@ iframe {
 
 }
 .article-footer{
-  
+  margin-left: 25%;
+  width:620px;
 }
 .footer-button-comments span{
   
+  color:white;
+  background-color: #6288a5;
+  font-family: nyt-franklin, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.65px;
+  
+  
+}
+.main-footer{
+  font-size: 12px;
+  font-family: nyt-franklin, Helvetica, sans-serif;
+  background: transparent;
+  color: #999999;
+  text-decoration: none;
+  margin-top: 22px ;
+  margin-bottom: 20px;
+  line-height: 16px;
+}
+.main-footer-div{
+  margin-left: 25%;
+  width: 600px;
+}
 
-   color:white;
-   background-color: #6288a5;
-   font-family: nyt-franklin, Helvetica, sans-serif;
-   font-size: 13px;
-   font-weight: 700;
-   letter-spacing: 0.65px;
+.editor-div{
+  height:100vh;
+  width: 100%;
+  margin-top:2000px;
+  margin-left:-205px;
+}
+.editor-div .editor-div-content{
+  height:305px;
+  width: 100%;
+  
+}
 
+div h3{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.editors-pic-img{
+  display:inline-block;
+  width:100%;
+}
+.editors-pic-img img{
+  display:inline-block;
+  width: 75px;
+  height: 75px;
+  vertical-align: middle;
+  margin-top:15px;
+}
+.editors-pic-txt {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: .65px;
+  font-family: nyt-cheltenham, Helvetica, sans-serif;
+  font-weight: 400;
+  width: 125px;
+  margin: 15px 80px 0px 5px;
+
+}
+.light-div{
+  width:210px;
+  height: 1px;
+  background: #e2e2e2;
+  
 }
