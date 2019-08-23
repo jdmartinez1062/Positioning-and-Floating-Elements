@@ -243,14 +243,13 @@ article {
   position: relative;
   top: 43px;
 }
-
-article div .small-float {
+.small-float {
   float: left;
   width: 18.4705%;
   height: 100px;
 }
 
-article div .big {
+.big {
   width: 63.059%;
   float: left;
 }
@@ -614,7 +613,6 @@ iframe {
 .editor-div .editor-div-content{
   height:305px;
   width: 100%;
-  
 }
 
 div h3{
@@ -650,5 +648,93 @@ div h3{
   width:210px;
   height: 1px;
   background: #e2e2e2;
+  
+}
+footer{
+  display: inline-block;
+  margin: 110px 0;
+  width: 100%;
+}
+
+.bottom-imgs{
+  float:left;
+  width:272.63px;
+  margin-right: 20px;
+  padding-bottom: 30px;
+}
+.bottom-imgs img{
+  width:272.63px;
+}
+.bottom-imgs .bottom-credits{
+  font-family: nyt-cheltenham, Helvetica, sans-serif;
+  color: #999999;
+  font-size: 10px;
+  float:right;
+}
+
+.bottom-imgs .story-link{
+  font-family: nyt-cheltenham, georgia, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  display: inline-block;
+  width:262.63px;
+}
+.bottom-imgs .bottom-imgs-date{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  color: #999999;
+  margin-top: 5px;
+  
+}
+.bottom-imgs div{
+  display: block;
+  margin-top:4px;
+  
+}
+.footer-titles{
+  font-size: 16px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin: none;
+  margin-left: 0;
+  margin-top:0;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #000;
+  max-width: 858px;
+  clear:both;
+
+}
+.first-column>div{
+  width:880px;
+    
+}
+.first-column{
+  display:inline-block;
+}
+.second-column{
+  display: inline-block;
+  width:300px;
+  vertical-align: top;
+}
+.first-column>div:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+} 
+.footer-p{
+  font-family: nyt-cheltenham, georgia, sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  border-top: 1px solid rgb(226, 226, 226);
+  height: 77px;
   
 }
