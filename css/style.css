@@ -185,7 +185,7 @@ table {
 
 nav {
   position: fixed;
-  top:0;
+  top: 0;
   width: 100%;
   height: 43px;
   padding: 0 120px 0 144px;
@@ -220,7 +220,7 @@ li a {
   color: black;
   text-decoration: none;
   letter-spacing: 0.7px;
-  margin-left:10px;
+  margin-left: 10px;
 }
 
 nav .nav-div-small {
@@ -229,11 +229,9 @@ nav .nav-div-small {
 }
 
 .tnyt-logo {
-  
   display: block;
   height: 26.48px;
   margin-top: 5px;
-
 }
 
 a svg {
@@ -268,7 +266,7 @@ nav .subscribe {
   width: 119px;
   height: 32px;
   border-radius: 3px;
-  border:1px solid #326891;
+  border: 1px solid #326891;
   font-size: 11px;
   font-weight: 700;
 }
@@ -278,7 +276,7 @@ nav .account {
   height: 33px;
   font-size: 12px;
   font-weight: 500;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .telescope-span span {
@@ -352,7 +350,7 @@ article div ::after {
 }
 
 h1 {
-  width:100%;
+  width: 100%;
   margin: 40px auto 25px 25%;
   word-spacing: -2px;
   font-family: nyt-cheltenham, Helvetica, sans-serif;
@@ -476,7 +474,6 @@ h2 {
   width: 37px;
   height: 30px;
   margin-left: 8px;
-  
 }
 
 .svg-icon-size-button-2 {
