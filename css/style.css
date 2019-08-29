@@ -271,8 +271,7 @@ article div ::after {
 }
 
 h1 {
-  margin-left: 25%;
-  margin-top: 40px;
+  margin: 40px 0 30px 25%;
   word-spacing: -2px;
   font-family: nyt-cheltenham, Helvetica, sans-serif;
   font-style: italic;
@@ -281,6 +280,7 @@ h1 {
   line-height: 48px;
   display: inline-block;
   max-width: 383.77px;
+  color:#121212;
 }
 
 h2 {
@@ -303,6 +303,7 @@ h2 {
   line-height: 30px;
   margin-left: 25%;
   clear: both;
+  color:#333333;
 }
 
 .main-text a {
@@ -419,7 +420,7 @@ h2 {
   margin-bottom: 0;
 }
 
-.below-img-p {
+.a-txt {
   margin-top: 0;
   margin-left: 10.625%;
   margin-bottom: 10px;
@@ -509,12 +510,13 @@ h2 {
 
 .story-footer {
   display: block;
-  width: 45px;
+  width: 60px;
   height: 1px;
-  background: black;
+  background: #333333;
   margin-top: 24px;
   margin-left: 10.625%;
   margin-bottom: 10px;
+  
 }
 
 .story-footer-text {
@@ -525,6 +527,7 @@ h2 {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   font-weight: 500;
+  color: #333333;
 }
 
 iframe {
@@ -802,4 +805,30 @@ footer {
   border-top: 1px solid #e2e2e2;
   padding-top: 10px;
   width: 100%;
+}
+.footer-div-links{
+  display:inline-block;
+}
+.footer-buttons{
+  height: 25px;
+  width: 180px;
+  display: block;
+}
+div .footer-svg-buttons{
+  height: 13px;
+  width: 13px;
+  
+}
+div .footer-svg-buttons span{
+  
+}
+.left-footer-div{
+  display:inline-block;
+  width: 986.65px;
+  height: 324px;
+  border-right: 1px solid #e2e2e2;
+}
+.right-footer-div{
+  display:inline-block;
+  width: 100px;
 }
