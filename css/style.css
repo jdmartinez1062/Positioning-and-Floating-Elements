@@ -822,6 +822,10 @@ div .footer-svg-buttons{
 div .footer-svg-buttons span{
   
 }
+
+.footer-links-container {
+  margin-top: 30px;
+}
 .left-footer-div{
   display:inline-block;
   width: 986.65px;
@@ -830,5 +834,40 @@ div .footer-svg-buttons span{
 }
 .right-footer-div{
   display:inline-block;
-  width: 100px;
+  width: 150px;
+  height: 324px;
+  float: right;
+}
+
+.alternate-links-top {
+  display: inline-block;
+  height: 69px;
+}
+
+.alternate-links-top a {
+  line-height: 21px;
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-weight: 500;
+  height: 23px;
+  width: 100px
+}
+
+
+.alternate-links-bottom {
+  border-top: 1px solid rgb(226, 226, 226);
+  height: 103;
+  display: inline-block;
+  margin: 10px 0 0;
+  padding: 10px 0 0;
+}
+
+.alternate-links-bottom a {
+  line-height: 21px;
+  text-transform: capitalize;
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-weight: 500;
+  height: 23px;
+  width: 100px
 }
