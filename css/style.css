@@ -345,8 +345,8 @@ article div ::after {
 }
 
 .main-img {
-  width: 1200px;
-  height: 675px;
+  width: 100%;
+  
 }
 
 h1 {
@@ -887,17 +887,18 @@ div .footer-svg-buttons {
 
 .left-footer-div {
   display: inline-block;
-  width: 83.332%;
+  width: 82.22083333333333%;
   height: 324px;
   border-right: 1px solid #e2e2e2;
-  margin-right: -5px;
+  
+  
 }
 
 .right-footer-div {
   display: inline-block;
-  width: 15.4%;
+  width: 15%;
   height: 324px;
-  margin-left: 15px;
+  margin-left: 10px;
   vertical-align: top;
 }
 
@@ -939,4 +940,8 @@ div .footer-svg-buttons {
 .bor-bot {
   border-bottom: 1px solid #e2e2e2;
   height: 391px;
+}
+.bottom-logo-div{
+  width: 80%;
+  margin-bottom: -10px;
 }
