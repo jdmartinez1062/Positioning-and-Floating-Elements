@@ -30,6 +30,13 @@
 }
 
 @font-face {
+  font-family: nyt-cheltenham;
+  font-style: normal;
+  font-weight: 700;
+  src: url("cheltenham/cheltenham-normal-700.ttf");
+}
+
+@font-face {
   font-family: nyt-imperial;
   font-style: italic;
   font-weight: 500;
@@ -346,10 +353,9 @@ article div ::after {
 
 .main-img {
   width: 100%;
-  
 }
 
-h1 {
+.main-title {
   width: 100%;
   margin: 40px auto 25px 25%;
   word-spacing: -2px;
@@ -487,7 +493,6 @@ h2 {
   margin-left: 10.625%;
   word-spacing: -2px;
   font-family: nyt-cheltenham, Helvetica, sans-serif;
-  font-style: italic;
   font-weight: 700;
   line-height: 48px;
   display: block;
@@ -890,8 +895,6 @@ div .footer-svg-buttons {
   width: 82.22083333333333%;
   height: 324px;
   border-right: 1px solid #e2e2e2;
-  
-  
 }
 
 .right-footer-div {
@@ -941,7 +944,8 @@ div .footer-svg-buttons {
   border-bottom: 1px solid #e2e2e2;
   height: 391px;
 }
-.bottom-logo-div{
+
+.bottom-logo-div {
   width: 80%;
   margin-bottom: -10px;
 }
