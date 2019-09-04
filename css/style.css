@@ -674,10 +674,9 @@ iframe {
 }
 
 .editor-div {
-  height: 100vh;
   width: 300px;
-  margin-top: 2000px;
-  margin-left: -205px;
+  float: right;
+  margin-right: -60%;
 }
 
 .editor-div .editor-div-content {
@@ -732,8 +731,8 @@ footer {
 .bottom-imgs {
   float: left;
   width: 272.63px;
+  height: 321.71px;
   margin-right: 20px;
-  padding-bottom: 30px;
 }
 
 .bottom-imgs img {
@@ -748,6 +747,8 @@ footer {
 }
 
 .bottom-imgs .story-link {
+  text-decoration: none;
+  color: #000;
   font-family: nyt-cheltenham, georgia, sans-serif;
   font-size: 18px;
   margin-top: 10px;
@@ -782,17 +783,14 @@ footer {
   clear: both;
 }
 
-.first-column > div {
-  width: 880px;
-}
-
 .first-column {
   display: inline-block;
+  width: 74.576271186%;
 }
 
 .second-column {
   display: inline-block;
-  width: 300px;
+  width: 24.4237288135593%;
   vertical-align: top;
 }
 
@@ -948,4 +946,15 @@ div .footer-svg-buttons {
 .bottom-logo-div {
   width: 80%;
   margin-bottom: -10px;
+}
+
+p.non-clear {
+  clear: none;
+  display: inline;
+  margin: 0;
+}
+
+.p-editors-div {
+  margin-left: 25%;
+  width: 600px;
 }
