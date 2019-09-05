@@ -958,6 +958,7 @@ p.non-clear {
   margin-left: 25%;
   width: 600px;
 }
+
 .ads {
   width: 100%;
   background: #333;
@@ -965,8 +966,8 @@ p.non-clear {
   position: fixed;
   bottom: 0;
 }
+
 .footer-a-txt {
-  
   display: table-cell;
   background: inherit;
   text-decoration: none;
@@ -974,11 +975,12 @@ p.non-clear {
   color: white;
   font: 15px nyt-franklin, helvetica, sans-serif;
   margin: auto auto;
-
 }
+
 .arrow-bot {
   background: inherit;
 }
+
 .small-footer {
   float: left;
   width: 25%;
@@ -986,6 +988,7 @@ p.non-clear {
   background: inherit;
   display: flex;
 }
+
 .center-footer {
   display: flex;
   float: left;
@@ -993,6 +996,7 @@ p.non-clear {
   height: 55px;
   background: inherit;
 }
+
 .center-footer ::before {
   content: '';
   display: inline-block;
@@ -1000,16 +1004,16 @@ p.non-clear {
   vertical-align: middle;
   margin-left: -1ch;
 }
-.subscribe-footer{
-  
+
+.subscribe-footer {
   color: white;
   font: 700 12px nyt-franklin, helvetica, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   background: #333;
-  
 }
-.arrow-bot-svg{
+
+.arrow-bot-svg {
   background: #333;
   height: 15px;
   width: 15px;
@@ -1017,7 +1021,8 @@ p.non-clear {
   align-items: center;
   margin-left: 40px;
 }
-.small-footer a{
+
+.small-footer a {
   width: max-content;
   height: max-content;
   background: #333;
