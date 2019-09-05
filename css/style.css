@@ -958,3 +958,70 @@ p.non-clear {
   margin-left: 25%;
   width: 600px;
 }
+.ads {
+  width: 100%;
+  background: #333;
+  height: 55px;
+  position: fixed;
+  bottom: 0;
+}
+.footer-a-txt {
+  
+  display: table-cell;
+  background: inherit;
+  text-decoration: none;
+  height: 19px;
+  color: white;
+  font: 15px nyt-franklin, helvetica, sans-serif;
+  margin: auto auto;
+
+}
+.arrow-bot {
+  background: inherit;
+}
+.small-footer {
+  float: left;
+  width: 25%;
+  height: 55px;
+  background: inherit;
+  display: flex;
+}
+.center-footer {
+  display: flex;
+  float: left;
+  width: 50%;
+  height: 55px;
+  background: inherit;
+}
+.center-footer ::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-left: -1ch;
+}
+.subscribe-footer{
+  
+  color: white;
+  font: 700 12px nyt-franklin, helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #333;
+  
+}
+.arrow-bot-svg{
+  background: #333;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.small-footer a{
+  width: max-content;
+  height: max-content;
+  background: #333;
+  display: flex;
+  text-decoration: none;
+  align-self: center;
+}
